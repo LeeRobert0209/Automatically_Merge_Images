@@ -1,0 +1,2 @@
+# Automatically_Merge_Images
+一个基于Python和PyQt6开发的桌面应用，专为高效、智能地将多张图片自动拼接成一张或多张完美长图而设计。
