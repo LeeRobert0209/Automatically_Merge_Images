@@ -15,12 +15,13 @@ from slicer import slice_image
 class StitcherThread(QThread):
     finished_signal = pyqtSignal(bool, str)
 
-    def __init__(self, image_paths, output_dir, split_count, target_width):
+    def __init__(self, image_paths, output_dir, split_count, target_width, max_kb):
         super().__init__()
         self.image_paths = image_paths
         self.output_dir = output_dir
         self.split_count = split_count
         self.target_width = target_width
+        self.max_kb = max_kb
 
     def run(self):
         try:
