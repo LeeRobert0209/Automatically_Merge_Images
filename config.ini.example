@@ -4,4 +4,4 @@
 ; 例如: python_path=C:\Program Files\Python39\python.exe
 ; 如果 Python 已在环境变量中，保持 python_path=python 即可
 
-python_path=D:\PythonEnvs\aienv_app\python.exe
+python_path=
